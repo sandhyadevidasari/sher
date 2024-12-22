@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: NeueMachina;
+}
+@font-face {
+    font-family: 'NeueMachina';
+    src: url(../static/fonts/PPNeueMachina-PlainRegular.otf);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:gray;
+    color:white;
+}
+#head{
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+.headings{
+    float: left;
+    position:relative;
+    top: -8px;
+    left: 25%;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+#check_button{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    background-color:aqua;
+    border-radius: 10px;
+    position: relative;
+    top: 350px;
+    left: -450px;
+}
+#center_tag{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 70px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: white;
+    font-family: 'NeueMachina';
+}
+body{
+    background-color: black;
+    
+}
+li{
+    position: relative;
+    top: 10px;
+    left: 10%;
+    margin-left: 50px;
+
+}
+#sign_button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    float: left;
+    position:relative;
+    left: 25%; 
+}
+.pre_tags{
+    position: relative;
+    top: 70%;
+    left: 30%;
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+#get_tag{
+    position: absolute;
+    top: 55%;
+    left: 950px;
+    font-size: 14px;
+    color: white;
+}
+a{
+    color: white;
+}
+#para_tag{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 110%;
+    left: 250px;
+}
+#explore_button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 220%;
+    left: -150px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+#top_tag{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    top: 350%;
+    left: 300px;
+
+}
+#course_tag{
+    width: 200px;
+    height: 50px;
+    background-color:aqua;
+    border-radius: 10px;
+    position: absolute;
+    top: 430%;
+    left: 500px;
+}
+#division_tag{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 140%;
+    left: 300px;
+}
+#div_tag{
+    color: white;
+}
+#div_tag{
+    width: 50%;
+    height: 370px;
+    background-color:black;
+    position: absolute;
+    top: 365%;
+    left: 250px;
+}
+#icons{
+    width: 100%;
+    height: 100%;
+}
+.images_tags{
+    width: 350px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    top: 260%;
+    left: 0px;
+}
+#courseoffered_tag{
+    position: absolute;
+    top: 250%;
+    left: 50px;
+    font-size: 45px;
+    color: white;
+}
+hr{
+    position: absolute;
+    top: 250%;
+}
+#footer{
+    color: white;
+    position: relative;
+    top: 280%;
+}
+#first_tag{
+    float: left;
+    position: absolute;
+    left: 70px;
+
+}
+#second_tag{
+    position: absolute;
+    left: 950px;
+}
+#third_tag{
+    position: absolute;
+    left: 500px;
+}
+.divisions{
+    width: 350px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+    top: 295%;
+    left: 0px;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fir_div{
+    position: absolute;
+    left: 70px;
+}
+#sec_div{
+    position: absolute;
+    left: 500px;
+}
+.off_tag{
+    position: absolute;
+    left: 250px;
+    top: 60%;
+}
+#thir_div{
+    position: absolute;
+    left: 950px;
+}
+.view_tag{
+    position: absolute;
+    top: 325%;
+    width: 350px;
+    height: 50px;
+}
+#fir_view{
+    position: absolute;
+    left: 70px;
+}
+#sec_view{
+    position: absolute;
+    left: 500px;
+}
+#thir_view{
+    position: absolute;
+    left: 950px;
+}
+.view{
+    width: 350px;
+    height: 50px;
+    background-color: aqua;
+    font-size: 20px;
+    border-radius: 10px;
+}
+hr{
+    position: absolute;
+    top: 460%;
+    color: white;
+}
+#footer{
+    position: absolute;
+    top: 460%;
+    text-decoration: none;
+}
+#data_tag{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+}
+#company_tag{
+    position: absolute;
+    left: 400px;
+    text-decoration: none;
+}
+#community_tag{
+    position: absolute;
+    left: 700px;
+}
+#address_tag{
+    position: absolute;
+    left: 980px;
+}
