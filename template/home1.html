@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryians</title>
+    <link rel="stylesheet" href="{% static 'contact.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="{% static 'home.js' %}"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="list" style="float: left;"><i style="color: blue;" class="fa-solid fa-google-drive"></i> IT-Google Drive</li>
+            <li class="list" style="float: left;"><i style="color: aqua;" class="fa-brands fa-python"></i> Chatgpt</li>
+            <li class="list" style="float: left;"><i style="background-image: linear-gradient(orange,yellow);" class="fa-solid fa-envelope"></i> Gmail</li>
+            <li class="list" style="float: left;"><i style="background-image: linear-gradient(yellow,red);" class="fa-brands fa-youtube"></i> Youtube</li>
+            <li class="list" style="float: left;"><i style="color: skyblue;" class="fa-solid fa-cloud"></i> MEGA</li>
+        </ul>
+    </nav>
+    <h1>Sheryians Coding School and home page</h1><br>
+    <h2><a href="{% url 'app1:home1' %}">home1</a></h2>
+    <h2><a href="{% url 'app1:home1' %}">contact</a></h2>
+    <h2><a href="{% url 'app1:home1' %}">BootCamp</a></h2>
+
+</body>
+</html>

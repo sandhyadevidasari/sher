@@ -1,0 +1,32 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'requestedcallback.css' %}">
+</head>
+<body>
+    <h1 id="head">🦁Sheryians Coding School</h1><br>
+    <h2 class="headings"><a href="{% url 'app1:home' %}">home</a></h2>
+    <h2 class="headings" style="text-decoration: none;"><a href="{% url 'app1:course' %}">course</a></h2>
+    <h2 class="headings">requestedcallback</h2>
+    <button class="headings" id="sign_button"><a href="{% url 'app1:signin' %}">Signin</a></button>
+    <div id="request_form">
+        <h2 id="request_heading">Requested a callback</h2>
+        <h4>Fill the form below to request a callback <br>from our team</h4>
+        <label for="">Name</label><br>
+        <input type="text" name="" id="" placeholder="Name" class="request_inputs" required><br>
+        <label for="">Phone</label><br>
+        <select name="" id="phone"placeholder="phone" class="request_inputs">
+            <option value="">India</option>
+            <option value="">Usa</option>
+            <option value="">china</option>
+            <option value="">Austalis</option>
+            <option value="">Japan</option>
+        </select><br>
+        
+    </div>
+</body>
+</html> 

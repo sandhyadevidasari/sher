@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheryian's Coding School Signin</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.signin-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#signin-form input {
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#signin-form button {
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signin-form button:hover {
+    background-color: #3e8e41;
+}
+
+#error-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="signin-container">
+        <h1>Sheryian's Coding School</h1>
+        <form id="signin-form">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirm-password" placeholder="Confirm Password">
+            <button id="signin-btn">Signin</button>
+        </form>
+        <p id="error-msg"></p>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+    <script src="{% static 'signin.js' %}"></script>
+</body>
+</html>

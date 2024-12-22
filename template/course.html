@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course</title>
+    <link rel="stylesheet" href="{% static 'course.css' %}">
+</head>
+<body>
+    <h1 id="head">🦁Sheryians Coding School</h1>
+    <h2 class="heading"><a href="{% url 'app1:home' %}">home</a></h2>
+    <h2 class="heading">course</h2>
+    <h2 class="heading">BootCamp</h2>
+    <h2 class="heading"></h2><a href="{% url 'app1:requestedcallback' %}">requestedcallback</a>
+    <button id="sign_button"><a href="{% url 'app1:signin' %}">Signin</a></button>
+    <pre>we are not a<span style="color: aquamarine;">course 
+factory.</span></pre>
+    <h3 id="heads">we focus on course that really help</h3>
+    <h4>course which do work</h4>
+    <div>
+        <img src="{% static 'image/Front-End.webp' %}" alt="" id="first_tag" class="images_tags">
+        <img src="{% static 'image/first.webp' %}" alt="" id="second_tag" class="images_tags">
+        <img src="{% static 'image/second.webp' %}" alt="" id="third_tag" class="images_tags">
+    </div> 
+    <div>
+        <div class="divisions" id="fir_div">
+            <h1>Front_End Domination:Create Anything with Code</h1><br>
+            <button>HINDI</button><br><br><br>
+            <h2 style="color: aqua;">Limited Time Discount</h2><br>
+            <h3>₹4999 </h3>
+            <button id="off_tag">50%OFF</button>
+        </div>
+        <div class="divisions" id="sec_div">
+            <h1>Back-EndDomination:Create Efficient Bcak-End</h1><br>
+            <button>HINDI</button><br><br><br>
+            <h2 style="color: aqua;">Limited Time Discount</h2><br>
+            <h3>₹5999 </h3>
+            <button class="off_tag">50%OFF</button>
+
+        </div>
+        <div class="divisions" id="thir_div">
+            <h1>Aptitude & Reasoning for Campus Placement</h1><br>
+            <button>HINGLISH</button><br><br><br>
+            <h2 style="color: aqua;">Black Friday sale</h2><br>
+            <h3>₹999</h3>
+            <button class="off_tag">33%OFF</button>
+        </div>
+    </div>
+    <div>
+        <div class="view_tag" id="fir_view">
+            <button class="view">View Details</button>
+        </div>
+        <div class="view_tag" id="sec_view">
+            <button class="view">View Details</button>
+        </div>
+        <div class="view_tag" id="thir_view">
+            <button class="view">View Details</button>
+        </div>
+    </div>
+    <div id="footer" style="border: 2px solid white;">
+        <div id="data_tag" class="details_tag">
+            🦁 <br><br>
+            <pre style="font-size: 15px;">Let's connect with our socials</pre> <br>
+            <i style="background-color: white;" class="fa-brands fa-youtube"></i>
+        </div>
+        <div id="company_tag" class="details_tag">
+            <h2>COMPANY</h2><br>
+            <a href="#" style="text-decoration: none;">About Us</a><br>
+            <a href="#" style="text-decoration: none;">Support</a><br>
+            <a href="#" style="text-decoration: none;">Privacy Policy</a><br>
+            <a href="#" style="text-decoration: none;">Trems and condition</a><br>
+            <a href="#" style="text-decoration: none;">Pricing and Refund</a><br>
+            <a href="#" style="text-decoration: none;">Hire From Us</a><br>
+            <a href="#" style="text-decoration: none;">Bug Bounty</a><br>
+        </div>
+        <div id="community_tag" class="details_tag">
+            <h2>COMMUNITY</h2><br>
+            <a href="#" style="text-decoration: none;">Inertia</a><br>
+            <a href="#" style="text-decoration: none;">Discord</a><br>
+        </div>
+        <div id="address_tag" class="details_tag">
+            <h2>Get In Touch</h2><br>
+            <a href="#" style="text-decoration: none;">+91 8109161752</a><br>
+            <a href="#" style="text-decoration: none;">+91 9691778470</a><br>
+            <a href="#" style="text-decoration: none;">hello@sharyians.com</a><br>
+            <a href="#" style="text-decoration: none;">23-B Indirapuri Sector C,Bhopel(MP),462021</a>
+        </div> 
+    </div>
+    
+</body>
+</html>

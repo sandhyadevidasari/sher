@@ -1,0 +1,26 @@
+#head{
+    float: left;
+    color: white;
+}
+.heading{
+    float: left;
+    position:relative;
+    top: -8px;
+    left: 25%;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+}
+#sign_button{
+    border-radius: 20px;
+    background-color: royalblue;
+    float: left;
+    position:relative;
+    top: 11px;
+    left: 25%;
+    padding-left: 30px;
+    padding-right: 15px;   
+}
+body{
+    background-color:black;
+}
